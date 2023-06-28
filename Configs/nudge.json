@@ -1,0 +1,61 @@
+{
+    "optionalFeatures": {
+        "acceptableCameraUsage": true,
+        "acceptableScreenSharingUsage": true,
+        "aggressiveUserExperience": true,
+        "aggressiveUserFullScreenExperience": true,
+        "asynchronousSoftwareUpdate": true,
+        "attemptToFetchMajorUpgrade": true,
+        "enforceMinorUpdates": true
+    },
+    "osVersionRequirements": [
+        {
+            "aboutUpdateURLs": [
+                {
+                    "_language": "en",
+                    "aboutUpdateURL": "https://support.apple.com/en-us/HT213268"
+                }
+            ],
+            "requiredInstallationDate": "2023-07-01T00:00:01Z",
+            "requiredMinimumOSVersion": "13.4.1",
+            "targetedOSVersionsRule": "default"
+        }
+    ],
+    "userExperience": {
+        "allowedDeferrals": 100,
+        "allowedDeferralsUntilForcedSecondaryQuitButton": 0,
+        "approachingRefreshCycle": 6000,
+        "approachingWindowTime": 120,
+        "elapsedRefreshCycle": 300,
+        "initialRefreshCycle": 18000,
+        "maxRandomDelayInSeconds": 1200,
+        "noTimers": false,
+        "nudgeRefreshCycle": 60,
+        "randomDelay": false
+    },
+    "userInterface": {
+        "fallbackLanguage": "en",
+        "forceFallbackLanguage": true,
+        "forceScreenShotIcon": false,
+        "iconDarkPath": "/Users/Shared/nudge/vercelmdm_dk.png",
+        "iconLightPath": "/Users/Shared/nudge/vercelmdm_lt.png",
+        "showDeferralCount": true,
+        "simpleMode": false,
+        "singleQuitButton": false,
+        "updateElements": [
+            {
+                "_language": "en",
+                "actionButtonText": "Update Device",
+                "informationButtonText": "More Info",
+                "mainContentHeader": "Your device will restart during this update",
+                "mainContentNote": "Important Notes",
+                "mainContentSubHeader": "Updates can take up to 30 minutes to complete.",
+                "mainContentText": "A fully up-to-date device is required to ensure the security of Vercel systems.\n\nTo begin the update, simply click on the Update Device button and follow the provided steps. If there does not appear to be any available updates, please restart your Mac and try the update again.",
+                "mainHeader": "Your device requires a macOS Update",
+                "primaryQuitButtonText": "Later",
+                "secondaryQuitButtonText": "Postpone Update",
+                "subHeader": "A reminder from your Vercel IT and Security team"
+            }
+        ]
+    }
+}
