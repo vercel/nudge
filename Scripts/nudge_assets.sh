@@ -14,5 +14,5 @@ fi
 
 #Grab latest asset images
 echo "Downloading latest asset images"
-/usr/bin/curl "https://raw.githubusercontent.com/vercel/nudge/Assets/vercelmdm_dk.png" -o "/Users/Shared/nudge/vercelmdm_dk.png"
-/usr/bin/curl "https://raw.githubusercontent.com/vercel/nudge/Assets/vercelmdm_lt.png" -o "/Users/Shared/nudge/vercelmdm_lt.png"
+/usr/bin/curl "https://raw.githubusercontent.com/vercel/nudge/main/Assets/vercelmdm_dk.png" -o "/Users/Shared/nudge/vercelmdm_dk.png"
+/usr/bin/curl "https://raw.githubusercontent.com/vercel/nudge/main/Assets/vercelmdm_lt.png" -o "/Users/Shared/nudge/vercelmdm_lt.png"
