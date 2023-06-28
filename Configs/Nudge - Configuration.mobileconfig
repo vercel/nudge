@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures Nudge settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Nudge</string>
+			<key>PayloadIdentifier</key>
+			<string>com.github.macadmins.Nudge.preferences</string>
+			<key>PayloadType</key>
+			<string>com.github.macadmins.Nudge</string>
+			<key>PayloadUUID</key>
+			<string>93546685-61C2-4258-A5ED-2E693BD597D5</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>json-url</key>
+			<string>https://raw.githubusercontent.com/vercel/nudge/main/Configs/nudge.json</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Configures Nudge application</string>
+	<key>PayloadDisplayName</key>
+	<string>Nudge - Configuration</string>
+	<key>PayloadIdentifier</key>
+	<string>com.github.macadmins.Nudge</string>
+	<key>PayloadOrganization</key>
+	<string>Vercel</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>5AAA976C-ED97-4DB9-8E41-643E99FA7AC3</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
